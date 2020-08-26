@@ -1,5 +1,5 @@
 # K nearest neighbors alogorithm --
-# Sample is clssified by majority vote by it's nearest neighbors
+# Sample is classified by majority vote by it's nearest neighbors
 
 import numpy as np
 from collections import Counter
@@ -14,11 +14,11 @@ class KNN:
 
     # constrcutor for k nearest neighbors
 
-    def __init__(self,k=5):
+    def __init__(self,k=3):
         self.k = k
 
     # fit method for machine learning
-    # 
+
     def fit(self,X,y):
         """
         X: training samples
